@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queio - Happiness Through Coding</title>
+    <link rel="icon" type="image/png" href="./img/favicon.jpg">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <input type="checkbox" id="sidebar-toggle" class="sidebar-toggle-checkbox">
+        <div class="sidebar">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Our Works</a>
+            <a href="">Our Teams</a>
+            <a href="">Contact Us</a>
+            <div class="navbar-auth-btn">
+                <a class="login" href="">Login</a>
+                <a class="register" href="">Register</a>
+            </div>
+        </div>
+        <div class="header-section">
+            <div class="navbar-logo">
+                <a href="./index.html"><img src="./img/logo.png" alt=""></a>
+            </div>
+            <div class="navbar-menu">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Our Works</a>
+                <a href="">Our Teams</a>
+                <a href="">Contact Us</a>
+            </div>
+            <div class="navbar-auth">
+                <a class="login" href="">Login</a>
+                <a class="register" href="">Register</a>
+            </div>
+        </div>
+        <label for="sidebar-toggle" class="sidebar-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+    </header>
+    <main>
+        <div class="main-hero-section">
+            <section class="hero">
+                <div class="hero-content">
+                    <h1>Innovate, Automate, Elevate</h1>
+                    <p>We build cutting-edge software solutions to help businesses grow and thrive in the digital world.
+                    </p>
+                    <a href="#contact" class="btn">Get Started</a>
+                </div>
+                <div class="hero-image">
+                    <img src="./img/hero.webp" alt="Queio Software">
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-section">
+            <div class="footer-main">
+                <div class="widget-one">
+                    <a href=""><img src="./img/logo.png" alt=""></a>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae dolore facere vitae
+                        accusantium itaque excepturi quis, tempora quo ullam, obcaecati repudiandae sit soluta delectus
+                        reiciendis nihil at, et sint! Quaerat.</p>
+                </div>
+                <div class="widget-two">
+                    <h2>Contact Us</h2>
+                    <p><strong>Address:</strong> 123 Main St, City, Country</p>
+                    <p><strong>Mobile:</strong> +123 456 7890</p>
+                    <p><strong>Email:</strong> abc@gmail.com</p>
+                </div>
+                <div class="widget-three">
+                    <h2>Important Link</h2>
+                    <a href="">About Us</a>
+                    <a href="">Contact Us</a>
+                    <a href="">Terms & Policy</a>
+                    <a href="">Refund Policy</a>
+
+                </div>
+                <div class="widget-four">
+                    <h2>Follow Us</h2>
+                    <div class="social-icons">
+                        <a href="#" class="icon1"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="icon2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="icon3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="icon4"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+
+                    <h2>Payment Methods</h2>
+                    <div class="payment-methods">
+                        <img src="./img/pay.png" alt="Payment Methods" width="150px">
+                    </div>
+                </div>
+
+            </div>
+            <div class="copyright-section">
+                <p>&copy; <span id="year"></span> Queio. All rights reserved.</p>
+            </div>
+            <a href="index.html" class="svgc">
+                <img src="./img/home.svg" alt="Home Icon">
+            </a>
+        </div>
+
+    </footer>
+</body>
+<script>
+    // JavaScript to dynamically update the year
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</html>
